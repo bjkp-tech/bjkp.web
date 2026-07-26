@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>भारतीय जन कल्याण पार्टी - ऑनलाइन सदस्यता</title>
+    <meta name="description" content="भारतीय जन कल्याण पार्टी की ऑनलाइन सदस्यता लें और राष्ट्र निर्माण में भागीदार बनें।">
+    <meta name="keywords" content="भारतीय जन कल्याण पार्टी, ऑनलाइन सदस्यता, ज्वाइन करें, BJKP Join Online">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="bjkp.png" alt="भारतीय जन कल्याण पार्टी लोगो" width="100">
+        </div>
+        <h1>भारतीय जन कल्याण पार्टी</h1>
+        <p>जन-जन का विश्वास, राष्ट्र का विकास</p>
+        <nav>
+            <a href="#home">होम</a>
+            <a href="#join">सदस्य बनें</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>स्वागत है</h2>
+        <p>भारतीय जन कल्याण पार्टी में आपका स्वागत है। हमारा उद्देश्य राष्ट्र निर्माण है।</p>
+        <a href="#join"><button style="padding: 10px 20px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">अभी सदस्य बनें</button></a>
+    </section>
+
+    <!-- ऑनलाइन सदस्यता फॉर्म सेक्शन -->
+    <section id="join" style="padding: 20px; max-width: 500px; margin: 40px auto; background: #f9f9f9; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); font-family: sans-serif;">
+        <h2 style="text-align: center; color: #333; margin-bottom: 5px;">ऑनलाइन सदस्यता फॉर्म</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 20px;">पार्टी से जुड़ने के लिए कृपया नीचे दी गई जानकारी भरें:</p>
+        
+        <!-- आपकी फॉर्मस्प्री आईडी यहाँ जोड़ दी गई है -->
+        <form action="https://formspree.io" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold;">पूरा नाम *</label>
+                <input type="text" name="नाम" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold;">मोबाइल नंबर *</label>
+                <input type="tel" name="मोबाइल_नंबर" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold;">ईमेल आईडी</label>
+                <input type="email" name="ईमेल" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold;">राज्य और जिला *</label>
+                <input type="text" name="स्थान" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" placeholder="उदा. उत्तर प्रदेश, लखनऊ">
+            </div>
+
+            <button type="submit" style="width: 100%; padding: 12px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: bold; cursor: pointer;">सदस्यता सबमिट करें</button>
+        </form>
+    </section>
+
+</body>
+</html>
